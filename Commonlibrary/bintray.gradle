@@ -93,8 +93,8 @@ bintray {
     configurations = ['archives']
     pkg {
 
-        repo = "CommonLibrary"  //发布到Bintray的那个仓库里，默认账户有四个库，我们这里上传到maven库
-        name = "CommonLibrary"  //发布到Bintray上的项目
+        repo = "commonLibrary"  //发布到Bintray的那个仓库里
+        name = "commonLibrary"  //发布到Bintray上的项目
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
