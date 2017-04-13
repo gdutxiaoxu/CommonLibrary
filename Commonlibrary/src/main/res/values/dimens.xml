@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="setting_icon_width">30dp</dimen>
+    <dimen name="setting_icon_height">30dp</dimen>
+    <dimen name="setting_icon_padding">5dp</dimen>
+</resources>
