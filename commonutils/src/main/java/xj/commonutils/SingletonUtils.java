@@ -7,11 +7,11 @@ package xj.commonutils;
 
 public abstract class SingletonUtils<T> {
 
-    private T instance;
+    private   volatile    T instance;
 
-    protected abstract T newInstance();
+    protected  abstract  T newInstance();
 
-    public final T getInstance() {
+    public  final T getInstance() {
         if (instance == null) {
             synchronized (SingletonUtils.class) {
                 if (instance == null) {

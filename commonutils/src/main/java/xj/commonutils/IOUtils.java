@@ -29,6 +29,20 @@ public class IOUtils {
         }
     }
 
+    public static void close(Closeable... closeables) {
+        for(Closeable closeable:closeables){
+            if (closeable != null) {
+                try {
+
+                    closeable.close();
+                } catch (IOException e) {
+                    throw new RuntimeException("IOException occurred. ", e);
+                }
+            }
+        }
+
+    }
+
     /**
      * Close closable and hide possible {@link IOException}
      * @param closeable closeable object

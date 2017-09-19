@@ -69,7 +69,7 @@ public class DateUtils {
 
     /**
      * 获取指定日期是星期几
-     * 参数为null时表示获取当前日期是星期几
+     * 参数为null时表示获取当前日期是星期日
      *
      * @param date
      * @return
@@ -88,7 +88,7 @@ public class DateUtils {
     }
 
     /**
-     * 更具毫秒数获取当前是星期几
+     * 根据毫秒数获取当前是星期几
      * @param timeMiss
      * @return
      */
@@ -103,6 +103,10 @@ public class DateUtils {
         return weekOfDays[w];
     }
 
+    /**
+     * 获取当前日期和时间
+     * @return
+     */
     public static String getCurrentDateAndTime() {
         SimpleDateFormat format = new SimpleDateFormat(DateAndTimePattern);
         return format.format(new Date());

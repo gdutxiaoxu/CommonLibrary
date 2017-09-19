@@ -10,7 +10,7 @@ import java.util.Stack;
  * protected void onCreate(Bundle savedInstanceState) {
  * super.onCreate(savedInstanceState);
  * setContentView(R.layout.activity_base);
- * activityManagerUtil = ActivityManagerUtil.getInstance();
+ * activityManagerUtil = ActivityManagerUtil.init();
  * activityManagerUtil.pushOneActivity(this);
  * }
  * protected void onDestroy() {

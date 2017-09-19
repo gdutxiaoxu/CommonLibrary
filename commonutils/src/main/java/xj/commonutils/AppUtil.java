@@ -33,8 +33,7 @@ public class AppUtil {
     /**
      * 获取应用程序版本名称信息
      */
-    public static String getVersionName(Context context)
-    {
+    public static String getVersionName(Context context) {
         try{
             PackageManager packageManager = context.getPackageManager();
             PackageInfo packageInfo = packageManager.getPackageInfo(

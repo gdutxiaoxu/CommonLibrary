@@ -4,7 +4,7 @@ package xj.commonutils;
 import java.security.MessageDigest;
 
 /**
- * @author meitu.xujun on 2017/9/1 16:02
+ * @author meitu.xujun on 2017/9/1 18:35
  * @version 0.1
  */
 public class MD5 {

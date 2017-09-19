@@ -28,7 +28,7 @@ import java.util.Map;
  * public void onCreate() {
  * super.onCreate();
  * //崩溃处理
- * CrashHandlerUtil crashHandlerUtil = CrashHandlerUtil.getInstance();
+ * CrashHandlerUtil crashHandlerUtil = CrashHandlerUtil.init();
  * crashHandlerUtil.init(this);
  * crashHandlerUtil.setCrashTip("很抱歉，程序出现异常，即将退出！");
  * }
